@@ -3,7 +3,7 @@ import React from 'react';
 import * as Immer from 'immer';
 import { useSharedValue } from 'react-native-reanimated';
 import { SharedValueStoreContext } from '../utils/context';
-import type { SharedValueStoreType } from 'src/types';
+import type { SharedValueStoreType } from '../types';
 
 export function SharedValueStoreProvider<State, Actions>({
   children,

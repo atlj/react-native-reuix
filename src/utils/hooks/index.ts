@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import type {
   SharedValueStoreContextType,
   SharedValueStoreType,
-} from 'src/types';
+} from '../../types';
 import { SharedValueStoreContext } from '../context';
 
 export function useSharedValueDispatch<
