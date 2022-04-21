@@ -26,6 +26,7 @@ export function SharedValueStoreProvider<State, Actions>({
     <SharedValueStoreContext.Provider
       value={{
         value: sharedValue,
+        //@ts-ignore
         dispatcher,
       }}
     >
