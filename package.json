@@ -1,6 +1,6 @@
 {
   "name": "react-native-reuix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A redux-like store system for react navite Reanimated 2 shared values",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
