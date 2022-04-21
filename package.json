@@ -143,5 +143,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "immer": "^9.0.12",
+    "react-native-reanimated": "^2.8.0"
   }
 }
