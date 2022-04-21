@@ -1,4 +1,8 @@
 import { useContext } from 'react';
+import type {
+  SharedValueStoreContextType,
+  SharedValueStoreType,
+} from 'src/types';
 import { SharedValueStoreContext } from '../context';
 
 export function useSharedValueDispatch<

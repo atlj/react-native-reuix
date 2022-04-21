@@ -1,4 +1,5 @@
 import type { Draft } from 'immer';
+import type { SharedValueStoreType } from 'src/types';
 
 export function createSharedValueStore<State, Actions>({
   initialState,
