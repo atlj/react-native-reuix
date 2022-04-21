@@ -1,6 +1,6 @@
 {
   "name": "react-native-reuix",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A redux-like store system for react navite Reanimated 2 shared values",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,7 +34,20 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "reanimated",
+    "react native reanimated 2",
+    "shared values",
+    "redux",
+    "redux react native",
+    "react native reanimated 2 shared value",
+    "react native reanimated 2 shared values",
+    "react native reanimated 2 redux",
+    "react native reanimated 2 redux shared value",
+    "react native reanimated redux",
+    "reanimated redux",
+    "reanimated shared value",
+    "reanimated shared values"
   ],
   "repository": "https://github.com/atlj/react-native-reuix",
   "author": "atlj <md.burak.guner@gmail.com> (https://github.com/atlj)",
