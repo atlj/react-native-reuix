@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { SharedValueStoreContext } from '../context';
 
 export function useSharedValueDispatch<
-  StoreType extends SharedValueStoreType<any, any>
+  StoreType extends SharedValueStoreType
 >() {
   const context = useContext<
     SharedValueStoreContextType<
@@ -18,9 +18,7 @@ export function useSharedValueDispatch<
   return context.dispatcher;
 }
 
-export function useSharedValueStore<
-  StoreType extends SharedValueStoreType<any, any>
->() {
+export function useSharedValueStore<StoreType extends SharedValueStoreType>() {
   const context = useContext<
     SharedValueStoreContextType<
       StoreType['initialState'],

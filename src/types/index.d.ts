@@ -1,4 +1,5 @@
 import { Draft } from 'immer';
+import type { SharedValue } from 'react-native-reanimated';
 
 declare global {
   type SharedValueStoreContextType<State = any, Actions = any> = {
@@ -9,7 +10,7 @@ declare global {
     ) => void;
   };
 
-  type SharedValueStoreType<State, Actions> = {
+  type SharedValueStoreType<State = any, Actions = any> = {
     initialState: State;
     actions: {
       [key in keyof Actions]: (
